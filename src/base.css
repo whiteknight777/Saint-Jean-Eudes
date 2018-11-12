@@ -1,0 +1,371 @@
+/* CSS DU COMPOSANT APP SAINT-JEAN EUDES */
+
+.d-flex>*,
+.d-inline-flex>* {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: auto !important;
+    flex: 0 0 auto !important;
+}
+
+.container {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    margin: auto;
+    padding: 0 36px;
+    width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.email-wrapper .mail-sidebar .menu-bar .menu-items li a {
+    color: #303a40;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.horizontal-menu .bottom-navbar .page-navigation>.nav-item>.nav-link .menu-title {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.horizontal-menu .bottom-navbar .page-navigation>.nav-item .submenu ul li a {
+    display: block;
+    padding: 5px 10px;
+    font-weight: 300;
+    color: #686868;
+    text-decoration: none;
+    text-align: left;
+    margin: 4px 0;
+    text-overflow: ellipsis;
+    font-size: 0.9rem;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    border-radius: 6px;
+}
+
+.no-p-t {
+    padding-top: 0;
+}
+
+.no-p-b {
+    padding-bottom: 0;
+}
+
+.loader-demo-box {
+    width: 100%;
+    height: 667px;
+    background: #211e1e17;
+    position: fixed;
+    z-index: 9999;
+}
+
+.horizontal-menu .bottom-navbar .page-navigation>.nav-item {
+    line-height: 1;
+    text-align: left;
+    cursor: pointer;
+}
+
+small {
+    font-size: 12px;
+}
+
+.primary {
+    background-color: #1867c0 !important;
+    border-color: #1867c0 !important;
+}
+
+
+
+.toUpper {
+    text-transform: uppercase !important;
+}
+
+.toCapitalize {
+    text-transform: capitalize !important;
+}
+
+.v-menu>.v-menu__content {
+    top: -5px !important;
+    left: -50px !important;
+    -webkit-transform-origin: left top 0px !important;
+    transform-origin: left top 0px !important;
+    z-index: 204 !important;
+}
+
+.datepiker-combo .v-menu>.v-menu__content {
+    top: 50px !important;
+    left: 30px !important;
+    transform-origin: left top 0px !important;
+    z-index: 204 !important;
+
+}
+
+.select-combo .v-menu>.v-menu__content {
+    top: 17px !important;
+    left: -223px !important;
+    transform-origin: left top 0px !important;
+    z-index: 204 !important;
+}
+
+.select-combo-mod .v-menu>.v-menu__content {
+    top: 17px !important;
+    left: -307px !important;
+    transform-origin: left top 0px !important;
+    z-index: 204 !important;
+}
+
+.v-btn__content {
+    font-size: 14px !important;
+    text-transform: initial !important;
+}
+
+.v-dialog__content {
+    z-index: 9999 !important;
+    background: #0000006b;
+}
+
+.bg-sidebar {
+    height: 150px;
+    padding: 0px !important;
+}
+
+.bg-sidebar img {
+    position: absolute;
+    width: 100%;
+}
+
+.bg-login img#material-bg-login {
+    position: absolute;
+    width: 100%;
+}
+
+.separator {
+    border-top: 1px dotted #ddd;
+    margin-top: 18px;
+}
+
+.etat-reglement {
+    position: absolute;
+    right: 7px;
+    top: 94px;
+}
+
+.sidebar-height {
+    min-height: 466px;
+}
+
+.bg-sidebar div.flex.shrink {
+    z-index: 1;
+    padding: 15px;
+}
+
+.theme--light.v-btn:not(.v-btn--icon):not(.v-btn--flat) {
+    background-color: #44519e;
+}
+
+div.v-date-picker-header .v-btn:not(.v-btn--depressed):not(.v-btn--flat) {
+    box-shadow: none !important;
+}
+
+.v-btn:not(.v-btn--depressed):not(.v-btn--flat) {
+    will-change: box-shadow !important;
+    -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.bg-sidebar div.subheading {
+    padding-bottom: 5px
+}
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.bg-icon-style {
+    padding: 50px;
+    color: white !important;
+    border-radius: 100%;
+    position: absolute;
+    overflow: auto;
+    right: -25px;
+    bottom: -40px;
+}
+
+.icon-lg {
+    font-size: 3.0rem !important;
+    position: absolute;
+    top: 14px;
+    left: 25px;
+}
+
+.v-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    z-index: 5;
+}
+
+.v-overlay--active {
+    pointer-events: auto;
+    touch-action: none;
+}
+
+.v-overlay--active:before {
+    opacity: 0.46;
+}
+
+.v-overlay:before {
+    background-color: #212121;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: inherit;
+    transition-delay: 150ms;
+    width: 100%;
+}
+
+.text-size-default {
+    font-size: 14px !important;
+}
+
+.title-size-default {
+    font-size: 15px !important;
+}
+
+.v-input--selection-controls .v-input__slot {
+    margin-bottom: 0 !important;
+}
+
+.v-date-picker-table .v-btn.v-btn--active {
+    color: #fff;
+    background: #44519e;
+}
+
+.v-label {
+    font-size: 14px !important;
+}
+
+.text-smaller {
+    font-size: smaller !important;
+    padding-bottom: 5px;
+}
+
+.v-input--radio-group--column .v-input--radio-group__input {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: initial !important;
+    -ms-flex-direction: initial !important;
+    flex-direction: initial !important;
+}
+
+.v-input--selection-controls.v-input .v-label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    top: 0;
+    height: auto;
+    margin-bottom: 0px !important;
+}
+
+.v-input--radio-group--column .v-radio:not(:last-child):not(:only-child) {
+    margin-bottom: 0px !important;
+}
+
+#right-nav::-webkit-scrollbar {
+    /* Scrollbars */
+    width: 7px;
+    background: #b7b7b7;
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(137, 131, 117),
+        inset -1px -1px 0 0 rgb(224, 220, 210);
+}
+
+#right-nav::-webkit-scrollbar-thumb:hover {
+    /* Barre */
+    -webkit-box-shadow: inset 0 0 0 1px rgb(90, 90, 90),
+        inset 0 0 0 6px rgb(110, 110, 110);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+    /* Scrollbars */
+    width: 9px;
+    background: #b7b7b7;
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(137, 131, 117),
+        inset -1px -1px 0 0 rgb(224, 220, 210);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* Barre */
+    -webkit-box-shadow: inset 0 0 0 1px rgb(90, 90, 90),
+        inset 0 0 0 6px rgb(110, 110, 110);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #787879;
+}
+
+table.v-table thead td:not(:nth-child(1)),
+table.v-table tbody td:not(:nth-child(1)),
+table.v-table thead th:not(:nth-child(1)),
+table.v-table tbody th:not(:nth-child(1)),
+table.v-table thead td:first-child,
+table.v-table tbody td:first-child,
+table.v-table thead th:first-child,
+table.v-table tbody th:first-child {
+    padding: 10px 24px;
+}
+
+.timeline .timeline-wrapper .timeline-panel {
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 1px 2px 35px 0 rgba(1, 1, 1, 0.1);
+    width: 45%;
+    margin-left: 5%;
+}
+
+.timeline .timeline-wrapper.timeline-inverted .timeline-panel {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.timeline-icon {
+    font-size: 15px !important;
+    margin-top: -1px !important;
+    position: absolute !important;
+    right: 4px !important;
+}
+
+.timeline-text {
+    padding-right: 4px !important;
+    font-size: 11px !important;
+}

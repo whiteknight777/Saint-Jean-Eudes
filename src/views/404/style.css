@@ -1,0 +1,16 @@
+.d-flex > *, .d-inline-flex > * {
+    -webkit-box-flex: 0 auto !important;
+    -ms-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+}
+.error-page h1 {
+    font-size: 12rem !important;
+}
+.flex-grow {
+    flex-grow: 1 !important;
+}
+@media (max-width: 991px){
+    .error-page h1 {
+        font-size: 7rem !important;
+    }
+}

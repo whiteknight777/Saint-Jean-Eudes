@@ -1,0 +1,20 @@
+.logo-bottom{
+    width: 150px;
+    padding-top: 20px;
+}
+.auth .brand-logo img {
+    width: 130px;
+}
+.d-flex > *, .d-inline-flex > * {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: auto !important;
+    flex: 0 0 auto !important;
+}
+
+@media (max-width: 991px){
+    .d-flex > *, .d-inline-flex > * {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: auto !important;
+    flex: 0 0 auto !important;
+    }
+}

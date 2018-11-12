@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>dashboard-template-vuejs</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but dashboard-template-vuejs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Saint-Jean-Eudes | Web App</title>
+  <link rel="icon" href="<%= BASE_URL %>/img/icons/favicon.icon">
+  <!-- CSS, ICONS & FONTS EN CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.8.94/css/materialdesignicons.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  <!-- CSS PLUGINS -->
+  <link rel="stylesheet" href="<%= BASE_URL %>vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>vendors/css/vendor.bundle.addons.css">
+  <!-- CSS TEMPLATE -->
+  <link rel="stylesheet" href="<%= BASE_URL %>css/horizontal-layout/style.css">
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but dashboard-template-vuejs doesn't work properly without JavaScript enabled. Please enable it
+      to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <!-- PLUGINS:JS -->
+  <script src="<%= BASE_URL %>vendors/js/vendor.bundle.base.js"></script>
+  <script src="<%= BASE_URL %>vendors/js/vendor.bundle.addons.js"></script>
+  <!-- inject:js -->
+  <script src="<%= BASE_URL %>js/off-canvas.js"></script>
+  <script src="<%= BASE_URL %>js/hoverable-collapse.js"></script>
+  <!-- <script src="<%= BASE_URL %>js/template.js"></script> -->
+  <script src="<%= BASE_URL %>js/settings.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- <script src="<%= BASE_URL %>js/dashboard.js"></script> -->
+  <script src="<%= BASE_URL %>js/todolist.js"></script>
+</body>
+
 </html>
